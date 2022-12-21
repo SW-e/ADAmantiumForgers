@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Polarization on Youtube
-subtitle: Ada ns cjehabvscj
+title: News & Politics on Youtube: does it reflect the overall polarization in the US political scene?
+subtitle: A study of user behaviour and channels communities
 cover-img: /assets/img/flag.png
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
