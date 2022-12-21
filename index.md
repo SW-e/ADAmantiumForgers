@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Polarization on Youtube
+subtitle: Ada ns cjehabvscj
 cover-img: /assets/img/social-media-politics.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
