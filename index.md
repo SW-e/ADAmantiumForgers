@@ -2,7 +2,7 @@
 layout: page
 title: Polarization on Youtube
 subtitle: Ada ns cjehabvscj
-cover-img: /assets/img/social-media-politics.jpg
+cover-img: /assets/img/flag.png
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [books, test]
