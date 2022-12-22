@@ -209,7 +209,7 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
            margin-left: auto;
            margin-right: auto;
            width: 100%;"
-    src="assets/img/wordclouds_merged.png" 
+    src="assets/img/loco_vocab.png" 
     alt="Community cloud of words">
 
 
