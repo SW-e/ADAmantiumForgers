@@ -140,14 +140,20 @@ Bias since the mainstream channels are more left
 
 ## Communities analysis
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="assets/img/louvain_communities.png" 
-    alt="...">
-    
+### trying out on subset dataset
+
+--> results p2
+
+### Running  on more data
+
+--> differences in results nombre de 47
+
+~17h of runing time
+
+we get remove the unwanted channels with louvain
+
+To identify the groups we check the 5 biggest channels of each group. 
+
 <img 
     style="display: block; 
            margin-left: auto;
@@ -156,6 +162,17 @@ Bias since the mainstream channels are more left
     src="assets/img/indian_usa_channels.png" 
     alt="...">
 
+classifying once again with louvain
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/louvain_communities.png" 
+    alt="...">
+    
+Results --> we get a csv with id of channel, and its respective communities 
 
 
 ## Identification of communities
