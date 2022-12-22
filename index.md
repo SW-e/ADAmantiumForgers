@@ -204,7 +204,6 @@ Once this new argument added, the political orientation of the communities slowl
 Although the communities 2,3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
 
 
-
 <img 
     style="display: block; 
            margin-left: auto;
@@ -225,36 +224,7 @@ test test
            width: 100%;"
     src="assets/img/20_most_cited_topics.png">
 
-ca s'affiche comment ?
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/black_voices_vocab.png">
-
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/queer_voices_vocab.png">
-
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/loco_vocab.png">
-
-et pour les images en html :
-
-<iframe src="_includes/figures/heat_map_datasets.html" height="600px" width="100%" style="border:none"></iframe>
-
-<iframe src="_includes/figures/words_occurences_international.html" height="600px" width="100%" style="border:none"></iframe>
-
-<iframe src="_includes/figures/words_occurences_surnatural.html" height="600px" width="100%" style="border:none"></iframe>
 
 ## Limitations of the dataset and this study
 
