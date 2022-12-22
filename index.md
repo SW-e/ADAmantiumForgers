@@ -95,7 +95,8 @@ Even if the number of views in incoparable with the most attractive categories s
 
 
 
-<iframe src="/assets/img/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+
+<iframe src="assets/img/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
 
 
 
