@@ -110,27 +110,13 @@ You may think. "Well, Great!, One other great plaform to get great sources of in
 
 <div src="assets/img/news_pol_3pie_overview.html"></div>
 
-<<<<<<< HEAD
-* * *
-
-## Communities MICHEL
 
 
-## How to to politically
-
-## Polatization
-
-
-
-
-{% include /figures/heatmap_comunity_w_hover.html %}
-=======
 Answer the following questions:
 
 *   Can we identify communities inside the main US News&Politics channels ? Is there a clear left-right polarization ?
 *   What is the distribution of users polarization? Is it Gaussian? How many very extreme users do we see?
 *   How are main political events treated by channels in different communities ?
->>>>>>> 2a0e6d6cbb532cbbcb70ac5703cb2b223b5f3629
 
 ## Are the users only commenting on channels of their political views?
 
@@ -178,17 +164,9 @@ Bias since the mainstream channels are more left
 
 
 ## Identification of communities
+## How to to politically
 
 {% include /figures/heatmap_comunity_w_hover.html %}
-
-
-
-
-
-## Polatization
-
-{% include /figures/heatmap_comunity_w_hover.html %}
-
 
 
 
