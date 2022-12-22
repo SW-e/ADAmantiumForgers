@@ -217,15 +217,16 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 test test
 
+
 <img 
     style="display: block; 
            margin-left: auto;
            margin-right: auto;git 
-           width: 400%;"
-    src="assets/img/20_most_cited_topics.png">
+           width: 100%;"
+    src="assets/img/20_most_cited_topics.png"
+    alt="20 most cited topics in each community">
 
 ca s'affiche comment ?
-
 
 <img 
     style="display: block; 
