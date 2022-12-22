@@ -75,7 +75,13 @@ The category contains more than 18% of the videos contained in the dataset. Howe
 {% include /figures/news_pol_3pie_overview.html %}
 
 
-<iframe src="/_includes/figures/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+<a src="/_includes/figures/news_pol_3pie_overview.html" height="600px" width="100%"
+>
+
+<a src="assets/img/news_pol_3pie_overview.html" height="600px" width="100%"
+>
+
+<iframe src="/_includes/figures/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none"></iframe>
 
 
 
