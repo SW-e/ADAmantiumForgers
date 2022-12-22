@@ -118,10 +118,28 @@ You may think. "Well, Great!, One other great plaform to get great sources of in
 {% include /figures/heatmap_comunity_w_hover.html %}
 
 
-* * *
 ## Polarization of Youtube users
 
 {% include /figures/p-score.html %}
+
+## Communities analysis
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/louvain_communities.png" 
+    alt="...">
+    
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/indian_usa_channels.png" 
+    alt="...">
+
 
 
 
