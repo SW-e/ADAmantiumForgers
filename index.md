@@ -259,7 +259,9 @@ et pour les images en html :
 
 {% include /figures/words_occurences_international.html %}
 
-{% include /figures/words_occurences_surnatural and beliefs.html %}
+{% include /figures/words_occurences_surnatural_and_beliefs.html %}
+
+
 
 
 ## Limitations of the dataset and this study
