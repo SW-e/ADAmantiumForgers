@@ -221,13 +221,15 @@ test test
     src="assets/img/20_most_cited_topics.png"
     alt="20 most cited topics in each community">
 
+<iframe src="assets/img/20_most_cited_topics.png" height="600px" width="200%" style="border:none;" margin-left="-400px"></iframe>
+
 ca s'affiche comment ?
 
 <img 
     style="display: block; 
            margin-left: auto;
            margin-right: auto;git 
-           width: 50%;"
+           width: 100%;"
     src="assets/img/black_voices_vocab.png">
 
 <img 
@@ -244,13 +246,20 @@ ca s'affiche comment ?
            width: 100%;"
     src="assets/img/loco_vocab.png">
 
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/climate_vocab.png">
+
 et pour les images en html :
 
 {% include /figures/heat_map_datasets.html %}
 
 {% include /figures/words_occurences_international.html %}
 
-{% include /figures/words_occurences_surnatural.html %}
+{% include /figures/words_occurences_surnatural and beliefs.html %}
 
 
 ## Limitations of the dataset and this study
