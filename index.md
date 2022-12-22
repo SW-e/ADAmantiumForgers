@@ -214,6 +214,21 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
     alt="Community cloud of words">
 
 
+## Going further than partisan categorization
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/20_most_cited_topics">
+
+
+<div w3-include-html="_includes/figures/heat_map_datasets.html"></div> 
+
+<div w3-include-html="_includes/figures/words_occurences_international.html"></div> 
+
+<div w3-include-html="_includes/figures/words_occurences_surnatural.html"></div> 
 
 ## Limitations of the dataset and this study
 
