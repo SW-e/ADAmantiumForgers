@@ -57,7 +57,7 @@ https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-p
            margin-left: auto;
            margin-right: auto;
            width: 100%;"
-    src="images/sources_of_news.png" 
+    src="assets/img//sources_of_news.png" 
     alt="Sources of news on social media">
 
 ## So, What is the Importance of News & Politics Channels on Youtube?
