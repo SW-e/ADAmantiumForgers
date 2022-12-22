@@ -189,8 +189,13 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 
 
-
-
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/wordclouds_merged.png" 
+    alt="Community cloud of words">
 
 
 
