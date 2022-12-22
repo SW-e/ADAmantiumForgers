@@ -48,7 +48,7 @@ The way of consuming the news has not stopped evolving over time. With the inven
 <img 
     style="display: block; 
            margin-left: auto;
-           margin-right: auto;
+           margin-right: auto;git 
            width: 100%;"
     src="assets/img/main_sources_news_age.png" 
     alt="Sources of news on social media">
@@ -72,7 +72,11 @@ https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-p
 YouTube contains millions of videos, but you would maybe be surprise that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of view or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total numberof channel and count for only 1.74% of the total number of views.
 
-{% include /figures/news_pol_3pie_overview.html max-width="600px" %}
+{% include /figures/news_pol_3pie_overview.html %}
+
+
+<iframe src="/_includes/figures/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+
 
 
 ## Where are we going?
@@ -82,6 +86,12 @@ Even if the number of views in incoparable with the most attractive categories s
 
 
 {% include /figures/2019_category_evolution.html %}
+
+
+
+<iframe src="/_includes/figures/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+
+
 
 ## What is the problem then?
 You may think. "Well, Great!, One other great plaform to get great sources of information!". I hate to disapoint you but the reallity may be more complex...
