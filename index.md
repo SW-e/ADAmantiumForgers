@@ -115,7 +115,7 @@ Moreover, during the first fews mont of 2019 it even manage to became the first 
 
 
 ## What is the problem then?
-You may think. "Well, Great!, One other great plaform to get great sources of information!". I hate to disapoint you but the reallity may be more complex...
+You may think. "Well, Great!, One other great plaform to get great sources of information!". I hate to disapoint you but the reality may be more complex...
 
 
  <div w3-include-html="assets/img/news_pol_3pie_overview.html"></div> 
@@ -124,7 +124,16 @@ You may think. "Well, Great!, One other great plaform to get great sources of in
 <div src="assets/img/news_pol_3pie_overview.html"></div>
 
 * * *
+
+## Communities MICHEL
+
+
+## How to to politically
+
 ## Polatization
+
+
+
 
 {% include /figures/heatmap_comunity_w_hover.html %}
 
