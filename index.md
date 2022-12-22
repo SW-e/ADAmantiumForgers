@@ -168,6 +168,8 @@ Once this new argument added, the political orientation of the communities slowl
 {% include /figures/heatmap_comunity_w_hover.html %}
 
 
+Although the communities 2,3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
+
 
 
 
