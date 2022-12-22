@@ -34,7 +34,7 @@ The way of consuming the news has not stopped evolving over time. With the inven
            margin-left: auto;
            margin-right: auto;git 
            width: 100%;"
-    src="assets/img/main_sources_news_age.png" 
+    src="assets/img/main_source_news_age.png" 
     alt="Sources of news on social media">
 
 
