@@ -15,9 +15,7 @@ In 2017, with the arrival in power of Donald Trump as president of the United St
 ## YouTube may be more ubiquitous than you think!
 
 
-The YouTube that once was a simple video hosting platform has since become one of the main source of our information, entertainment and even social network.
-
-Youtube in 2022:
+The YouTube that once was a simple video hosting platform has since become one of the main source of our information, entertainment and even social network. YouTube in 2022, this is 
 
 <img 
     style="display: block; 
@@ -28,22 +26,11 @@ Youtube in 2022:
 
 
 
-- 1 billion hours of video watched each day
-- Second most visited website after Google
-- Second most used social platform
-- second largest search engine
-- As many views as the number of searches on Goggle
-- 10 billion app installs
-- 25% of total global mobile traffic.
-- 81% of the entire U.S. adult population uses YouTube
 - YT is used more and more to get news (even more for young generations) and unlike traditional medias, information is much less controlled
 - One of the most powerful and influencial recommendation algorithm that has the power of ...
 (that promotes content that works and that might enclose people in filter bubbles)
-https://www.comparitech.com/tv-streaming/youtube-statistics/
 
-70% of what people watch on YouTube is determined by its recommendation algorithm.
-
-With such a powerful force de frappe et controllable algo
+With such a powerful striking power and influencial algorithm
 Ad platform
 Political platform
 
