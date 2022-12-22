@@ -14,11 +14,40 @@ In 2017, with the arrival in power of Donald Trump as president of the United St
 
 ## YouTube may be more ubiquitous than you think!
 
-Donner des data sur YouTube:
-- autant de vues sur YT que de recherches sur Google
-- proportion de gens qui regardent YT
+
+The YouTube that once was a simple video hosting platform has since become one of the main source of our information, entertainment and even social network.
+
+Youtube in 2022:
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/YT-facts_wide.png">
+
+
+
+- 1 billion hours of video watched each day
+- Second most visited website after Google
+- Second most used social platform
+- second largest search engine
+- As many views as the number of searches on Goggle
+- 10 billion app installs
+- 25% of total global mobile traffic.
+- 81% of the entire U.S. adult population uses YouTube
 - YT is used more and more to get news (even more for young generations) and unlike traditional medias, information is much less controlled
-- Algorithm that promotes content that works and that might enclose people in filter bubbles
+- One of the most powerful and influencial recommendation algorithm that has the power of ...
+(that promotes content that works and that might enclose people in filter bubbles)
+https://www.comparitech.com/tv-streaming/youtube-statistics/
+
+70% of what people watch on YouTube is determined by its recommendation algorithm.
+
+With such a powerful force de frappe et controllable algo
+Ad platform
+Political platform
+
+India leads as the country with the highest number of YouTube users at 467 million.  
 
 
 <!--- <img src="images/fb_us_pol.png" alt="fb_us_pol" width="700" style="display: block; margin-left: auto;margin-right: auto"/> -->
@@ -140,14 +169,20 @@ Bias since the mainstream channels are more left
 
 ## Communities analysis
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="assets/img/louvain_communities.png" 
-    alt="...">
-    
+### trying out on subset dataset
+
+--> results p2
+
+### Running  on more data
+
+--> differences in results nombre de 47
+
+~17h of runing time
+
+we get remove the unwanted channels with louvain
+
+To identify the groups we check the 5 biggest channels of each group. 
+
 <img 
     style="display: block; 
            margin-left: auto;
@@ -156,6 +191,17 @@ Bias since the mainstream channels are more left
     src="assets/img/indian_usa_channels.png" 
     alt="...">
 
+classifying once again with louvain
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/louvain_communities.png" 
+    alt="...">
+    
+Results --> we get a csv with id of channel, and its respective communities 
 
 
 ## Identification of communities
@@ -172,6 +218,13 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 
 
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/wordclouds_merged.png" 
+    alt="Community cloud of words">
 
 
 
