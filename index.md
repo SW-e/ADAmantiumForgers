@@ -226,6 +226,7 @@ test test
 
 ca s'affiche comment ?
 
+
 <img 
     style="display: block; 
            margin-left: auto;
