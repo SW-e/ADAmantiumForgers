@@ -107,7 +107,7 @@ Moreover, during the first fews mont of 2019 it even manage to became the first 
 
 
 
-<iframe src="assets/img/news_pol_3pie_overview.html" height="600px" width="200%" style="border:none;"></iframe>
+<iframe src="assets/img/news_pol_3pie_overview.html" height="600px" width="200%" style="border:none;" margin-left="-400px"></iframe>
 
 
 
