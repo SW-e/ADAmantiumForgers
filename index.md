@@ -221,9 +221,39 @@ test test
     style="display: block; 
            margin-left: auto;
            margin-right: auto;git 
-           width: 100%;"
+           width: 400%;"
     src="assets/img/20_most_cited_topics.png">
 
+ca s'affiche comment ?
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/black_voices_vocab.png">
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/queer_voices_vocab.png">
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/loco_vocab.png">
+
+et pour les images en html :
+
+<iframe src="_includes/figures/heat_map_datasets.html" height="600px" width="100%" style="border:none"></iframe>
+
+<iframe src="_includes/figures/words_occurences_international.html" height="600px" width="100%" style="border:none"></iframe>
+
+<iframe src="_includes/figures/words_occurences_surnatural.html" height="600px" width="100%" style="border:none"></iframe>
 
 
 ## Limitations of the dataset and this study
