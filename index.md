@@ -250,11 +250,11 @@ ca s'affiche comment ?
 
 et pour les images en html :
 
-<div w3-include-html="_includes/figures/heat_map_datasets.html"></div> 
+<iframe src="_includes/figures/heat_map_datasets.html" height="600px" width="100%" style="border:none"></iframe>
 
-<div w3-include-html="_includes/figures/words_occurences_international.html"></div> 
+<iframe src="_includes/figures/words_occurences_international.html" height="600px" width="100%" style="border:none"></iframe>
 
-<div w3-include-html="_includes/figures/words_occurences_surnatural.html"></div> 
+<iframe src="_includes/figures/words_occurences_surnatural.html" height="600px" width="100%" style="border:none"></iframe>
 
 ## Limitations of the dataset and this study
 
