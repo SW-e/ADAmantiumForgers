@@ -232,7 +232,7 @@ ca s'affiche comment ?
     style="display: block; 
            margin-left: auto;
            margin-right: auto;git 
-           width: 100%;"
+           width: 50%;"
     src="assets/img/black_voices_vocab.png">
 
 <img 
