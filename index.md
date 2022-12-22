@@ -216,13 +216,39 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 ## Going further than partisan categorization
 
+test test
+
 <img 
     style="display: block; 
            margin-left: auto;
            margin-right: auto;git 
            width: 100%;"
-    src="assets/img/20_most_cited_topics">
+    src="assets/img/20_most_cited_topics.png">
 
+ca s'affiche comment ?
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/black_voices_vocab.png">
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/queer_voices_vocab.png">
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/loco_vocab.png">
+
+et pour les images en html :
 
 <div w3-include-html="_includes/figures/heat_map_datasets.html"></div> 
 
