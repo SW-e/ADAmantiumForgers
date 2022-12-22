@@ -131,26 +131,21 @@ Answer the following questions:
 
 ## Are the users only commenting on channels of their political views?
 
-Quote/definition (wikipedia): 
-Political polarization: divergence of political attitudes away from the center, towards ideological extremes. 
+Political polarization is, according to wikipedia, the divergence of political attitudes away from the center, towards ideological extremes. In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching news that already matches their opinion. 
 
-In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching news that already matches their opinion. 
+How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's evaluate each user by the orientation of the channels on which he mostly commented on, and call it an "open-mindness score", "political engagment score" or polarization score, alias **p-score**. This rating would be the average of the "score" obtained by one user that gets points for each comment on classified channels, according to the following scale:
 
-How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's look at the entirety of their videos, and all users who commented on each one of them. 
-
-Let's quantify this and call it an "open-mindness score", "political engagement score" or polarization score, alias p-score.
-
-What is a p-score? The average of the "score" obtained by one user, for example Bob. If Bob commented on 1 videos of channels classified as "far-right", 2 "lean left" channel and 1 "left" channel, his score will be 1-1-2*0.5 = -1 and his p-score will be -1/4 = -0.25. A ideal non-polarized society will show a high number of users with a score close to zero, and very low amount of users with a high score towards the extreme left (-1) or far right (+1).
-
-Data of the figure: people with between 25 and 10'000 comments per year (significantly involved).
-Not enough data before 2015 for significant results. This is due to the growth of Youtube in the last years, as seen previously.
+If Bob commented on 1 videos of channels classified as "far-right", 2 "lean left" channel and 1 "left" channel, his score will be 1-1-2*0.5 = -1 and his p-score will be -1/4 = -0.25. A ideal non-polarized society will show a high number of users with a score close to zero, and very low amount of users with a high score towards the extreme left (-1) or far right (+1). What is the shape of the distribution that is actually observed in the dataset?
 
 {% include /figures/p-score.html %}
 
-Throughout the years, there is a clear general trend towards the left (shift of the median), while the extremes grow.
-Surprising: very high proportion of very high scores. These are people with at least 25 comments each year who are commenting *exclusively* on far left or far right channels.
+In this figure are counted each person that is significantly involved in the US medias, with between 25 and 10'000 comments per year on the channels classified by AllSides. Unfortunately, distributions before 2015 were ignored due to a lack of data. This is due to the rapid growth of Youtube in the last years, as seen previously.
 
-Bias since the mainstream channels are more left
+First of all, all years exhibit a bias towards the left, since the biggest and more mainstream channels are generally considered as lean left. However, there is a clear general trend with a shift of the median towards the left throughout the years.
+
+Second observation, the extremes grow, and they grow fast! More surprisingly, it appears that there is a very high proportion of very high scores. Keep in mind that these are people with at least **25 comments** each year who are commenting **exclusively** on far left or far right channels. Nowhere else.
+
+
 
 
 
