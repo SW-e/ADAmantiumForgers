@@ -175,6 +175,8 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 
 
+
+
 ## Limitations of the dataset and this study
 
 * English-speaking only, US only and politics only (very very small window over of the entirety of Youtube)
