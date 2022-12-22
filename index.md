@@ -105,6 +105,10 @@ You may think. "Well, Great!, One other great plaform to get great sources of in
 
 
  <div w3-include-html="assets/img/news_pol_3pie_overview.html"></div> 
+
+
+<div src="assets/img/news_pol_3pie_overview.html"></div>
+
 * * *
 ## Polatization
 
