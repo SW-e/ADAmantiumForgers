@@ -45,7 +45,14 @@ From milestone 2:
 
 The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news, transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information online and this also raises more and more questions.
 
-<a href="https://www.statista.com/statistics/717651/most-popular-news-platforms/" rel="nofollow"><img src="https://www.statista.com/graphic/1/717651/most-popular-news-platforms.jpg" alt="Statistic: Most popular platforms for daily news consumption in the United States as of February 2022, by age group | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a><br />Find more statistics at  <a href="https://www.statista.com" rel="nofollow">Statista</a>
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;git 
+           width: 100%;"
+    src="assets/img/main_sources_news_age.png" 
+    alt="Sources of news on social media">
+
 
 In the social media family, after Facebbok, YouTube is the second website where people get most of their news. In 2020, almost one in four people (23%) regulary get news on YouTube.
 
@@ -57,7 +64,7 @@ https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-p
            margin-left: auto;
            margin-right: auto;
            width: 100%;"
-    src="assets/img//sources_of_news.png" 
+    src="assets/img/sources_of_news.png" 
     alt="Sources of news on social media">
 
 ## So, What is the Importance of News & Politics Channels on Youtube?
@@ -65,7 +72,11 @@ https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-p
 YouTube contains millions of videos, but you would maybe be surprise that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of view or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total numberof channel and count for only 1.74% of the total number of views.
 
-{% include /figures/news_pol_3pie_overview.html max-width="600px" %}
+{% include /figures/news_pol_3pie_overview.html %}
+
+
+<iframe src="/_includes/figures/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+
 
 
 ## Where are we going?
@@ -75,6 +86,12 @@ Even if the number of views in incoparable with the most attractive categories s
 
 
 {% include /figures/2019_category_evolution.html %}
+
+
+
+<iframe src="/assets/img/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+
+
 
 ## What is the problem then?
 You may think. "Well, Great!, One other great plaform to get great sources of information!". I hate to disapoint you but the reallity may be more complex...
