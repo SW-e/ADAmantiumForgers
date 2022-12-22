@@ -251,11 +251,11 @@ ca s'affiche comment ?
 
 et pour les images en html :
 
-<iframe src="_includes/figures/heat_map_datasets.html" height="600px" width="100%" style="border:none"></iframe>
+{% include /figures/heat_map_datasets.html %}
 
-<iframe src="_includes/figures/words_occurences_international.html" height="600px" width="100%" style="border:none"></iframe>
+{% include /figures/words_occurences_international.html %}
 
-<iframe src="_includes/figures/words_occurences_surnatural.html" height="600px" width="100%" style="border:none"></iframe>
+{% include /figures/words_occurences_surnatural.html %}
 
 
 ## Limitations of the dataset and this study
