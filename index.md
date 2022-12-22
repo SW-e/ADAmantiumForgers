@@ -23,7 +23,7 @@ Youtube in 2022:
     style="display: block; 
            margin-left: auto;
            margin-right: auto;git 
-           width: 100%;"
+           width: 70%;"
     src="assets/img/YT-facts.png">
 
 
