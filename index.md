@@ -87,16 +87,18 @@ The category contains more than 18% of the videos contained in the dataset. Howe
 
 ## Where are we going?
 
-Even if the number of views in incoparable with the most attractive categories such as entertainement and music, the News and Politics categories is pushing its way up. During the last few year it was the categoy with the higher growth and it even become the category posting the most videos on the platform in 2019.
+Even if the number of views is incomparable with the most attractive categories such as entertainement and music, the News and Politics categories is pushing its way up. Over the last fwe year it can be observed that this is the category with the fastest growth.
+
 {% include /figures/overall_categories_evolution.html %}
 
+Moreover, during the first fews mont of 2019 it even manage to became the first category regarding the number of uploaded videos.
 
 {% include /figures/2019_category_evolution.html %}
 
 
 
 
-<iframe src="assets/img/news_pol_3pie_overview.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="assets/img/news_pol_3pie_overview.html" height="600px" width="200%" style="border:none;"></iframe>
 
 
 
@@ -116,9 +118,7 @@ You may think. "Well, Great!, One other great plaform to get great sources of in
 
 
 
-```python
-1 + 1 # Adding two numbers
-```
+
 
 ## Polatization
 
