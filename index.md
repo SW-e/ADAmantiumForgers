@@ -103,6 +103,8 @@ Even if the number of views in incoparable with the most attractive categories s
 ## What is the problem then?
 You may think. "Well, Great!, One other great plaform to get great sources of information!". I hate to disapoint you but the reallity may be more complex...
 
+
+ <div w3-include-html="assets/img/news_pol_3pie_overview.html"></div> 
 * * *
 ## Polatization
 
