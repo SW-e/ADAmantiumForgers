@@ -131,9 +131,11 @@ Answer the following questions:
 
 ## Are the users only commenting on channels of their political views?
 
-Political polarization is, according to wikipedia, the divergence of political attitudes away from the center, towards ideological extremes. In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching news that already matches their opinion. 
+> Political polarization is, according to wikipedia, the divergence of political attitudes away from the center, towards ideological extremes. In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching news that already matches their opinion. 
 
 How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's evaluate each user by the orientation of the channels on which he mostly commented on, and call it an "open-mindness score", "political engagment score" or polarization score, alias **p-score**. This rating would be the average of the "score" obtained by one user that gets points for each comment on classified channels, according to the following scale:
+
+![p-score scale](assets/img/LR_axis.png)
 
 If Bob commented on 1 videos of channels classified as "far-right", 2 "lean left" channel and 1 "left" channel, his score will be 1-1-2*0.5 = -1 and his p-score will be -1/4 = -0.25. A ideal non-polarized society will show a high number of users with a score close to zero, and very low amount of users with a high score towards the extreme left (-1) or far right (+1). What is the shape of the distribution that is actually observed in the dataset?
 
@@ -141,7 +143,11 @@ If Bob commented on 1 videos of channels classified as "far-right", 2 "lean left
 
 In this figure are counted each person that is significantly involved in the US medias, with between 25 and 10'000 comments per year on the channels classified by AllSides. Unfortunately, distributions before 2015 were ignored due to a lack of data. This is due to the rapid growth of Youtube in the last years, as seen previously.
 
+### Test subtitle
+
 First of all, all years exhibit a bias towards the left, since the biggest and more mainstream channels are generally considered as lean left. However, there is a clear general trend with a shift of the median towards the left throughout the years.
+
+#### Test subsbutitle
 
 Second observation, the extremes grow, and they grow fast! More surprisingly, it appears that there is a very high proportion of very high scores. Keep in mind that these are people with at least **25 comments** each year who are commenting **exclusively** on far left or far right channels. Nowhere else.
 
