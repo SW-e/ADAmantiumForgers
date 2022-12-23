@@ -230,11 +230,10 @@ Abroad, it was also a rich period :
 We will use the words occurrences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
 
-{% include /figures/60_most_cited_topics.html %}
 
 Trump is always cited very frequently. But further inspection of the words occurrences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
-# Comparison with other lexical fields
+## Comparison with other lexical fields
 
 In order to properly analyse the word occurrences, we can compare them with datasets containing news titles on specific topics. We used the following datasets for the comparison :
 - Rishabh Misra's [news categories dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset), classifying news from the HuffPost in different categories. We will be using the "Black voices" and "Queer voices" categories.
