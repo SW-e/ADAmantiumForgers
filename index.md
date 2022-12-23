@@ -1,7 +1,7 @@
 ---
 layout: page
 title: News and Politics on YouTube - Does it reflect the overall polarization in the US political scene?
-subtitle: A study of user behaviour and channels communities
+subtitle: A study of user behavior and channels communities
 cover-img: /assets/img/flag.png
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
@@ -10,14 +10,14 @@ tags: [books, test]
 
 ## Pro- or Anti- ?
 
-In 2017, with the arrival in power of Donald Trump as president of the United States, the American political world quickly split between the pro and anti-Trump. This polarization began in the late 1990s and and has been only increasing since, promoted by the US voting system and the two-party system. Is this polarization is also reflected Online ? Can the same effect be measured on YouTube communities ? In this data story, we will analyze the profiles of political communities on YouTube.
+In 2017, with the arrival in power of Donald Trump as president of the United States, the American political world quickly split between pro and anti-Trump. This polarization began in the late 1990s and has been only increasing since, promoted by the US voting system and the two-party system. Is this polarization also reflected Online ? Can the same effect be measured on YouTube communities ? In this data story, we will analyze the profiles of political communities on YouTube.
 
 <!--- According to a [study][1] lead by Jesse M. Shapiro, Brown University,-->
 
 ## YouTube may be more ubiquitous than you think!
 
 
-The YouTube that once was a simple video hosting platform has since become one of the main source of our information, entertainment and even social network. YouTube in 2022, this is 
+The YouTube that once was a simple video hosting platform has since become one of the main sources of our information, entertainment and even social network. YouTube in 2022, this is:
 
 <img 
     style="display: block; 
@@ -35,7 +35,7 @@ With such a powerful striking power and influence, YouTube plays an increasing r
 <!--- <img src="images/fb_us_pol.png" alt="fb_us_pol" width="700" style="display: block; margin-left: auto;margin-right: auto"/> -->
 <!--- *Complete disconnexion of political landscape. Pablo Ortellado and Marcio Moretto Ribeiro, CC BY* -->
 
-The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news, transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
+The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news,was transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
 
 <img 
     style="display: block; 
@@ -46,7 +46,7 @@ The way of consuming the news has not stopped evolving over time. With the inven
     alt="Sources of news on social media">
 
 
-In the social media family, after Facebook, YouTube is the second website where people get most of their news. In [2020](https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-platforms-in-2020/pj_2021-01-12_news-social-media_0-02/), almost one in four people (23%) regularly get news on YouTube.
+In the social media family, after Facebook, YouTube is the second website where people get most of their news. In [2020](https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-platforms-in-2020/pj_2021-01-12_news-social-media_0-02/), almost one in four people (23%) regularly got news on YouTube.
 
 
 <img 
@@ -60,10 +60,10 @@ In the social media family, after Facebook, YouTube is the second website where 
 
 ## So, What is the Importance of News & Politics Channels on YouTube?
 
-Let's investigate on the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019, as well as channel-level time-series data with weekly subscriber and view counts. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
+Let's investigate the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019, as well as channel-level time-series data with weekly subscriber and view counts. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
 
-YouTube contains millions of videos, but you would maybe be surprise that the YouTube category with the most uploaded videos is the News & Politics one.
-The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of view or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channel and count for only 1.74% of the total number of views.
+YouTube contains millions of videos, but you would maybe be surprised that the YouTube category with the most uploaded videos is the News & Politics one.
+The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of views or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channels and count for only 1.74% of the total number of views.
 
 
 {% include /figures/news_pol_3pie_superposed.html %}
@@ -72,18 +72,18 @@ The category contains more than 18% of the videos contained in the dataset. Howe
 
 ## Where are we going?
 
-Even if the number of views is incomparable with the most attractive categories such as entertainment and music, the News and Politics categories is pushing its way up. Over the last fwe year it can be observed that this is the category with the fastest growth.
+Even if the number of views is incomparable with the most attractive categories such as entertainment and music, the News and Politics category is pushing its way up. Over the last few years it can be observed that this is the category with the fastest growth.
 
 {% include /figures/overall_categories_evolution.html %}
 
-Moreover, during the first fews months of 2019 it even manage to became the first category regarding the number of uploaded videos.
+Moreover, during the first few months of 2019, it even manages to become the first category regarding the number of uploaded videos.
 
 {% include /figures/2019_category_evolution.html %}
 
 
 
 ## What is the problem then?
-You may think. "Well, Great!, One other great platform to get great sources of information!". I hate to disappoint you but the reality may be more complex...
+You may think. "Well, Great! One other great platform to get great sources of information!". I hate to disappoint you but the reality may be more complex...
 
  <div w3-include-html="assets/img/news_pol_3pie_overview.html"></div> 
 <div src="assets/img/news_pol_3pie_overview.html"></div>
@@ -92,15 +92,15 @@ You may think. "Well, Great!, One other great platform to get great sources of i
 Answer the following questions:
 
 *   Can we identify communities inside the main US News&Politics channels ? Is there a clear left-right polarization ?
-*   What is the distribution of users polarization? Is it Gaussian? How many very extreme users do we see?
+*   What is the distribution of user's polarization? Is it Gaussian? How many very extreme users do we see?
 *   How are main political events treated by channels in different communities ?
 
 
 ## Are the users only commenting on channels of their political views?
 
-Political polarization is, according to Wikipedia, the divergence of political attitudes away from the center, towards ideological extremes. In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching news that already matches their opinion. 
+Political polarization is, according to Wikipedia, the divergence of political attitudes away from the center, towards ideological extremes. In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching the news that already matches their opinion. 
 
-How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's evaluate each user by the orientation of the channels on which he mostly commented on, and call it an "open-mindness score", "political engagement score" or polarization score, alias **p-score**. This rating would be the average of the "score" obtained by one user that gets points for each comment on classified channels, according to the following scale:
+How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's evaluate each user by the orientation of the channels on which he mostly commented on, and call it an "open-mindedness score", "political engagement score" or polarization score, alias **p-score**. This rating would be the average of the "score" obtained by one user that gets points for each comment on classified channels, according to the following scale:
 
 ![p-score scale](assets/img/LR_axis.png)
 
