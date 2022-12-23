@@ -213,7 +213,7 @@ YouTube as a news media gives more space for alternative thinking and allows a w
 
 To perform this analysis, we decided to focus on a two months period, from December 2018 to January 2019.
 
-<i>What specific events happened during this period of time ?</i>
+<b><i>What specific events happened during this period of time ?</i></b>
 
 These two months were rich on the political scene, for U.S. national politics, as well as for U.S. international relations.
 
@@ -230,7 +230,7 @@ Abroad, it was also a rich period :
 - Andres Manuel Lopez Obrador becomes President of Mexico
 - A UN ceasefire is agreed in Yemeni civil war
 
-We will use the words occurences to see how these political events were covered in different communities.
+We will use the words occurences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
 <img 
     style="display: block; 
@@ -242,43 +242,39 @@ We will use the words occurences to see how these political events were covered 
 
 <iframe src="assets/img/20_most_cited_topics.png" height="1200px" width="450%" style="border:none;" margin-left="-400px"></iframe>
 
-ca s'affiche comment ?
+Trump is always cited very frequently. But further inspection of the words occurences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/black_voices_vocab.png">
+# Comparison with other lexical fields
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/queer_voices_vocab.png">
+In order to properly analyse the word occurences, we can compare them with datasets containing news titles on specific topics. We used the following datasets for the comparison :
+- Rishabh Misra's [news categories dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset), classifying news from the HuffPost in different categories. We will be using the "Black voices" and "Queer voices" categories.
+- The [LOCO dataset](https://www.researchgate.net/publication/355578021_LOCO_The_88-million-word_language_of_conspiracy_corpus), characterizing the cospiracy language
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/loco_vocab.png">
-
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/climate_vocab.png">
-
-et pour les images en html :
+Computing the distance between topics in these datasets and in our communities, we observe the following result.
 
 {% include /figures/heat_map_datasets.html %}
 
+Community 0 is clearly the closest to the black and queer voices datasets. This is no real surprise, as it has been classified as leaning left. Community 4 is also clearly the closest to conspiracist news. This clarifies the profile of this community, as we had no information so far. As the conspiracy is not present in medias described by AllSides, it makes sense that this community was not represented in the left/right classification performed earlier.
+
+We would like to go further, and understand the last communities on which we still have no clue. To do so, we created words ensembles and tried to "trigger" a reaction from a community when analysing the occurences of these words ensemble. The words ensembles that were created are used to test lexical fields that have not been tested so far : international news, religion and beliefs, closeness to Donald Trump, U.S. domestic affairs.
+
+<b><i>For which words ensemble do we see a specificity in occurences for communities 2 and 3 ?</i></b>
+
+Here are the results for the words ensemble on international news, and on religion and beliefs
+
+
 {% include /figures/words_occurences_international.html %}
 
-{% include /figures/words_occurences_surnatural_and_beliefs.html %}
+{% include /figures/words_occurences_religion_and_beliefs.html %}
+
+This clearly shows the orientation for our incognito communities.
+
+Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also.
+
+Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not idenfied as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events.
+
+We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ouselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specificaly during the studied period (Dec. 2018 - Jan. 2019)
+
 
 
 
