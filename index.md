@@ -225,7 +225,7 @@ These two months were rich on the political scene, for U.S. national politics, a
 
 Abroad, it was also a rich period :
 - Negotiations about Brexit were going on, and Theresa May's Brexit deal with the EU is rejected by UK parliament
-- France is facing with Yellow vests protests
+- France is facing major protests from Yellow Vests
 - Andres Manuel Lopez Obrador becomes President of Mexico
 - A UN ceasefire is agreed in the Yemeni civil war
 
