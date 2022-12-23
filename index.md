@@ -200,7 +200,7 @@ We run the louvain algorithm again on our reduced but cleaner dataset and obtain
            margin-right: auto;
            width: 100%;"
     src="assets/img/louvain_communities.png" 
-    alt="...">
+    alt="Graph containing the louvain communities">
 
  - Community 0 has 341 members
  - Community 1 has 140 members
