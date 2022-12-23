@@ -237,6 +237,7 @@ We will use the words occurences to see how these political events were covered 
     src="assets/img/20_most_cited_topics.png"
     alt="20 most cited topics in each community">
 
+<iframe src="assets/img/20_most_cited_topics.png" height="1200px" width="450%" style="border:none;" margin-left="-400px"></iframe>
 
 Trump is always cited very frequently. But further inspection of the words occurences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
