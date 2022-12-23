@@ -127,7 +127,7 @@ We then run the Louvain algorithm to find some communities
 
 ### Dataset cleaning
 
-Success ! We did get communities rapidly. But some communities do not seem to have their videos in English or have any interest in the politics of the USA. By checking out the biggest channels of each community, we can quickly get an idea of which communities are of interest to us or not. We can discard the unnecessary ones.
+Success ! We did get communities rapidly. But some communities do not seem to have their videos in English (mainly a huge community in India that was not properly filtered in the dataset) or have any interest in the politics of the USA. By checking out the biggest channels of each community, we can quickly get an idea of which communities are of interest to us or not. We can discard the unnecessary ones.
 
 <img 
     style="display: block; 
