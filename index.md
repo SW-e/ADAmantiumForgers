@@ -138,7 +138,7 @@ Second observation, the extremes grow, and they grow fast! More surprisingly, it
 To find communities amongst YouTube channels, we created a graph using user comments. The graph was created as follows:
 If Alice comments on Video 1 of channel A and on video 2 of channel B, we create an edge of weight 1 between channel A and B. 
 
-For time purposes, we used only a subset of the comment for the graph generation (approx 17 hours of runing time for graph generation)
+For time purposes, we used only a subset of the comment for the graph generation (approx 17 hours of running time for graph generation)
 
 We then run the Louvain algorithm to find some communities
 
