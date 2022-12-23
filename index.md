@@ -229,7 +229,7 @@ Abroad, it was also a rich period :
 
 We will use the words occurrences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
-
+{% include /figures/60_most_cited_topics.html %}
 
 Trump is always cited very frequently. But further inspection of the words occurrences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
@@ -261,13 +261,15 @@ Community 2 reacts to international news lexical fields. Brexit is its most cite
 
 Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not identified as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events. But these channels are still classified as being part of the News & Politics subjects by YouTube, and are probably at the interface between news and beliefs content.
 
-# Conclusion
+## Conclusion
 
-We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ourselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specifically during the studied period (Dec. 2018 - Jan. 2019)
+We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ourselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specifically during the studied period (Dec. 2018 - Jan. 2019).
 
 {% include /figures/words_occurences_national_politics.html %}
 
-On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2), as well as the topics on shooting and healthcare that are more reported by community 1. Similarly, the topics of security, wall and immigration are more reported by the right wing.
+On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2), as well as the topics on shooting and healthcare that are more reported by community 1. Similarly, the topics of security, wall and immigration are more reported by the right wing. Finally, focusin on 'maga', communities 4 and 5 look to be more pro-Trump and have a tendency to use his campaign terms.
+
+
 
 ## Limitations of the dataset and this study
 
