@@ -194,13 +194,6 @@ Once this new argument added, the political orientation of the communities slowl
 Although the communities 2,3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
 
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="assets/img/wordclouds_merged.png" 
-    alt="Community cloud of words">
 
 <img 
     style="display: block; 
