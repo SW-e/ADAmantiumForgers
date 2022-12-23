@@ -217,7 +217,20 @@ To perform this analysis, we decided to focus on a two months period, from Decem
 
 These two months were rich on the political scene, for U.S. national politics, as well as for U.S. international relations.
 
+- US President Donald Trump and Chinese President Xi Jinping agreed on a trade war truce
+- Dec 5 is National day of mourning for former US President George H. W. Bush, after his national funerals
+- The risk of government shutdown is high, Trump said he would be "proud" to shut down the government
+- The topic of border wall is brought back to the forefront by Donald Trump
+- Nancy Pelosi is reelected Speaker of the House of Representatives
+- Trump seems more and more implicated on campaign fraud and Russion dealings
 
+Abroad, it was also a rich period :
+- Negociations about Brexit were going on, and Theresa May's Brexit deal with the EU is rejected by UK parliament
+- France is facing with Yellow vests protests
+- Andres Manuel Lopez Obrador becomes President of Mexico
+- A UN ceasefire is agreed in Yemeni civil war
+
+We will use the words occurences to see how these political events were covered in different communities.
 
 <img 
     style="display: block; 
