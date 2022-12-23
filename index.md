@@ -229,7 +229,7 @@ Abroad, it was also a rich period :
 
 We will use the words occurrences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
-
+{% include /figures/60_most_cited_topics.html %}
 
 Trump is always cited very frequently. But further inspection of the words occurrences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
@@ -249,14 +249,14 @@ We would like to go further, and understand the last communities on which we sti
 
 <b><i>For which words ensemble do we see a specificity in occurrences for communities 2 and 3 ?</i></b>
 
-Here are the results for the words ensemble on international news, and on religion and beliefs
+Here are the results for the words ensemble on international news, and on religion and beliefs, that did "trigger" communities 2 and 3 respectively, showing peaks of frequency of occurences.
 
 
 {% include /figures/words_occurences_international.html %}
 
-{% include /figures/words_occurences_surnatural_and_beliefs.html %}
+{% include /figures/words_occurences_religion_and_beliefs.html %}
 
-This clearly shows the orientation for our incognito communities.
+This clearly shows the orientation for our two left incognito communities.
 
 Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also.
 
