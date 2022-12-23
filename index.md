@@ -271,5 +271,6 @@ Our travel through the News & Politics channels on YouTube led us to a better un
 
 A larger scale study would be of great interest, with more recent data, to study the further evolution of these communities. Our dataset was focusing on US only, containing only the biggest channels, up to 2019. News & Politics content appeared to be exploding in quantity after this year. Also, to be able to process the dataset under our time constraint, we had to use only videos with more than 30 comments, and we focused our language processing to a period of two months. However, our protocols are in place and the work could be generalized with more time to a larger set of more recent data, and to the whole world.
 
+
 [1]: https://www.nber.org/papers/w2666
 [2]: https://theconversation.com/mapping-brazils-political-polarization-online-96434
