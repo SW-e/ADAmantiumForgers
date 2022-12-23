@@ -200,16 +200,16 @@ Once this new argument added, the political orientation of the communities slowl
 
 Since community 2 is mainly composed of UK users, no political categorization could have been made with Allsides that only reports American media.
 
-Although communities 3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
+Although communities 3 and 4 do not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left-wing of the political spectrum, the 5 is the great representative of the right-wing.
 
 
 
 ## Going further than partisan categorization
 
-At this point in our exploration of News & Politics channels, we observe that the classical partisan confrontation between right and left, Republicans and Democrats, is not sufficient to characterize the polarization of political communities on YouTube. This approach, if it has been able to label two communities as left wing and one as right wing, leaves three communities with no clear identity.
-YouTube as a news media gives more space for alternative thinking and allows a wider variety of speeches. In order to understand the identity of the remaining communities, we will now run an analysis of terms used in videos titles. Digging into the topics that these news channels discuss will lead us to better understand them.
+At this point in our exploration of News & Politics channels, we observe that the classical partisan confrontation between right and left, Republicans and Democrats, is not sufficient to characterize the polarization of political communities on YouTube. This approach, if it has been able to label two communities as left-wing and one as right-wing, leaves three communities with no clear identity.
+YouTube as a news media gives more space for alternative thinking and allows a wider variety of speeches. In order to understand the identity of the remaining communities, we will now run an analysis of terms used in video's titles. Digging into the topics that these news channels discuss will lead us to better understand them.
 
-To perform this analysis, we decided to focus on a two months period, from December 2018 to January 2019.
+To perform this analysis, we decided to focus on a two-months period, from December 2018 to January 2019.
 
 <b><i>What specific events happened during this period of time ?</i></b>
 
@@ -220,23 +220,23 @@ These two months were rich on the political scene, for U.S. national politics, a
 - The risk of government shutdown is high, Trump said he would be "proud" to shut down the government
 - The topic of border wall is brought back to the forefront by Donald Trump
 - Nancy Pelosi is reelected Speaker of the House of Representatives
-- Trump seems more and more implicated on campaign fraud and Russion dealings
+- Trump seems more and more implicated on campaign fraud and Russian dealings
 
 Abroad, it was also a rich period :
-- Negociations about Brexit were going on, and Theresa May's Brexit deal with the EU is rejected by UK parliament
+- Negotiations about Brexit were going on, and Theresa May's Brexit deal with the EU is rejected by UK parliament
 - France is facing with Yellow vests protests
 - Andres Manuel Lopez Obrador becomes President of Mexico
-- A UN ceasefire is agreed in Yemeni civil war
+- A UN ceasefire is agreed in the Yemeni civil war
 
 We will use the words occurrences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
 {% include /figures/60_most_cited_topics.html %}
 
-Trump is always cited very frequently. But further inspection of the words occurrences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
+Trump is always cited very frequently. But further inspection of the words occurrences will allow us to analyze more in-depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
 ## Comparison with other lexical fields
 
-In order to properly analyse the word occurrences, we can compare them with datasets containing news titles on specific topics. We used the following datasets for the comparison :
+In order to properly analyze the word occurrences, we can compare them with datasets containing news titles on specific topics. We used the following datasets for the comparison :
 - Rishabh Misra's [news categories dataset](https://www.kaggle.com/datasets/rmisra/news-category-dataset), classifying news from the HuffPost in different categories. We will be using the "Black voices" and "Queer voices" categories.
 - The [LOCO dataset](https://www.researchgate.net/publication/355578021_LOCO_The_88-million-word_language_of_conspiracy_corpus), characterizing the conspiracy language
 
@@ -244,13 +244,13 @@ Computing the distance between topics in these datasets and in our communities, 
 
 {% include /figures/heat_map_datasets.html %}
 
-Community 0 is clearly the closest to the black and queer voices datasets. This is no real surprise, as it has been classified as leaning left. Community 4 is also clearly the closest to conspiracist news. This clarifies the profile of this community, as we had no information so far. As the conspiracy is not present in medias described by AllSides, it makes sense that this community was not represented in the left/right classification performed earlier.
+Community 0 is clearly the closest to the black and queer voices datasets. This is no real surprise, as it has been classified as leaning left. Community 4 is also clearly the closest to conspiracist news. This clarifies the profile of this community, as we had no information so far. As the conspiracy is not present in media described by AllSides, it makes sense that this community was not represented in the left/right classification performed earlier.
 
 We would like to go further, and understand the last communities on which we still have no clue. To do so, we created words ensembles and tried to "trigger" a reaction from a community when analyzing the occurrences of these words ensemble. The words ensembles that were created are used to test lexical fields that have not been tested so far : international news, religion and beliefs, closeness to Donald Trump, U.S. domestic affairs.
 
 <b><i>For which words ensemble do we see a specificity in occurrences for communities 2 and 3 ?</i></b>
 
-Here are the results for the words ensemble on international news, and on religion and beliefs, that did "trigger" communities 2 and 3 respectively, showing peaks of frequency of occurences.
+Here are the results for the words ensemble on international news, and on religion and beliefs, that did "trigger" communities 2 and 3 respectively, showing peaks of frequency of occurrences.
 
 {% include /figures/words_occurences_international.html %}
 
@@ -258,9 +258,9 @@ Here are the results for the words ensemble on international news, and on religi
 
 This clearly shows the orientation for our two left incognito communities.
 
-Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also. This community is also probably containing a lot of content from other English speaking countries, such as UK or Australia.
+Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', community 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also. This community is also probably containing a lot of content from other English speaking countries, such as UK or Australia.
 
-Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not identified as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events. But these channels are still classified as being part of the News & Politics subjects by YouTube, and are probably at the interface between news and beliefs content.
+Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not identified as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focused on religion and supernatural events. But these channels are still classified as being part of the News & Politics subjects by YouTube, and are probably at the interface between news and beliefs content.
 
 # Conclusion
 
@@ -268,7 +268,7 @@ We now have a clearer idea on the profile of all these six communities. Knowing 
 
 {% include /figures/words_occurences_national_politics.html %}
 
-On all these national politics topics, we note very low interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2, left wing), just like the topics on shooting and healthcare that are more reported by community 1 (lean left). Similarly, the topics of security, wall and immigration are more reported by the right wing (community 5). Finally, focusin on 'maga', communities 4 and 5 look to be more pro-Trump and have a tendency to use his campaign terms.
+On all these national political topics, we note very low interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2, left wing), just like the topics on shooting and healthcare that are more reported by community 1 (lean left). Similarly, the topics of security, wall and immigration are more reported by the right wing (community 5). Finally, focusing on 'maga', communities 4 and 5 look to be more pro-Trump and have a tendency to use his campaign terms.
 
 Our travel through the News & Politics channels on YouTube led us to a better understanding of who is watching and what news contents are available on this videos plaform. We discovered that these communities do not exactly reflect the traditionnal Democrats/Republicans opposition, even though it can clearly be identified in specific communities. Conspiracist or isoteric content is from far not negligible, as communities 3 and 4 propose about 12% of the total number of videos on the studied period in the US. This growing dynamic of disinformation is a major threat to our society's stability and cohesion.
 
