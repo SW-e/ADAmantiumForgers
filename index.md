@@ -120,19 +120,6 @@ Second observation, the extremes grow, and they grow fast! More surprisingly, it
 
 ## Finding the communities
 
-### trying out on subset dataset
-
-
-
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="assets/img/initial_louvain.png" 
-    alt="...">
-
-
 ### Running  on more data
 
 To find communities amongst YouTube channels, we created a graph using user comments. The graph was created as follows:
