@@ -149,21 +149,33 @@ Second observation, the extremes grow, and they grow fast! More surprisingly, it
 
 
 
-## Communities analysis
+## Finding the communities
 
 ### trying out on subset dataset
 
---> results p2
+
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/initial_louvain.png" 
+    alt="...">
+
 
 ### Running  on more data
 
---> differences in results nombre de 47
+To find communities amongst youtube channels, we created a graph using user comments. The graph was created as follows:
+If Alice comments on Video 1 of channel A and on video 2 of channel B, we create an edge of weight 1 between channel A and B. 
 
-~17h of runing time
+For time purposes, we used only a subset of the comment for the graph generation (approx 17 hours of runing time for graph generation)
 
-we get remove the unwanted channels with louvain
+We then run the louvain algorithm to find some communities
 
-To identify the groups we check the 5 biggest channels of each group. 
+### Dataset cleaning
+
+Success ! We did get communities rapidly. But some communities do not seem to have their videos in english or have any interest in the politics of USA. By checking out the biggest channels of each community, we can quickly get an idea of which communities are of interest to us or not. We can discard the unnecessary ones.
 
 <img 
     style="display: block; 
@@ -171,9 +183,14 @@ To identify the groups we check the 5 biggest channels of each group.
            margin-right: auto;
            width: 100%;"
     src="assets/img/indian_usa_channels.png" 
-    alt="...">
+    alt="Graph containing the unwanted channels in red and the channels we kept in blue">
 
-classifying once again with louvain
+
+Out of the 2262 initial channels we have 1095 channels left.
+
+### Clean communities
+
+We run the louvain algorithm again on our reduced but cleaner dataset and obtain 7 communities.
 
 <img 
     style="display: block; 
@@ -182,7 +199,17 @@ classifying once again with louvain
            width: 100%;"
     src="assets/img/louvain_communities.png" 
     alt="...">
-    
+
+ - Community 0 has 341 members
+ - Community 1 has 140 members
+ - Community 2 has 104 members
+ - Community 3 has 255 members
+ - Community 4 has 98 members
+ - Community 5 has 155 members
+ - Community 6 has 2 members
+
+Since community 6 has only 2 channels, we choose to ignore it in the future steps. 
+
 Results --> we get a csv with id of channel, and its respective communities 
 
 
