@@ -8,9 +8,11 @@ share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
 
-## Introduction
+## Pro- or Anti- ?
 
-In 2017, with the arrival in power of Donald Trump as president of the United States, the American political world quickly split between the pro and anti-Trump. According to a [study][1] lead by Jesse M. Shapiro, Brown University, this polarization began in the late 1990s and early 2000s and has been only increasing since, promoted by the detrimental properties of the US voting system that incentivize people to become radical. This polarization is also reflected online: according to a [study][2] on Facebook lead by to Brazilian researcher, the polarization one year after the 2017 election can be pictured on the figure below. Can the same effect be measured on YouTube communities ? In this data story, we will analyze the profiles of political communities on YouTube.
+In 2017, with the arrival in power of Donald Trump as president of the United States, the American political world quickly split between the pro and anti-Trump. This polarization began in the late 1990s and and has been only increasing since, promoted by the US voting system and the two-party system. Is this polarization is also reflected online ? Can the same effect be measured on YouTube communities ? In this data story, we will analyze the profiles of political communities on YouTube.
+
+<!--- According to a [study][1] lead by Jesse M. Shapiro, Brown University,-->
 
 ## YouTube may be more ubiquitous than you think!
 
@@ -25,25 +27,15 @@ The YouTube that once was a simple video hosting platform has since become one o
     src="assets/img/YT-facts_wide.png">
 
 
+The recommendation algorithm of YouTube is probably one of the most powerful and influencial in existence today, promoting content that works and that might enclose people in their own filter bubble, thus increasing polarization. And no one exept knows exactly how it works... 
 
-- YT is used more and more to get news (even more for young generations) and unlike traditional medias, information is much less controlled
-- One of the most powerful and influencial recommendation algorithm that has the power of ...
-(that promotes content that works and that might enclose people in filter bubbles)
+With such a powerful striking power and influence, YouTube plays an increasing role on people's opinions, as it is used more and more to get news.
 
-With such a powerful striking power and influencial algorithm
-Ad platform
-Political platform
-
-India leads as the country with the highest number of YouTube users at 467 million.  
-
-
+[//]: # (India leads as the country with the highest number of YouTube users at 467 million)
 <!--- <img src="images/fb_us_pol.png" alt="fb_us_pol" width="700" style="display: block; margin-left: auto;margin-right: auto"/> -->
-
 <!--- *Complete disconnexion of political landscape. Pablo Ortellado and Marcio Moretto Ribeiro, CC BY* -->
 
-
-
-The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news, transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
+The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news, transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information online and this also raises more and more questions.
 
 <img 
     style="display: block; 
@@ -54,10 +46,8 @@ The way of consuming the news has not stopped evolving over time. With the inven
     alt="Sources of news on social media">
 
 
-In the social media family, after Facebbok, YouTube is the second website where people get most of their news. In 2020, almost one in four people (23%) regularly get news on YouTube.
+In the social media family, after Facebbok, YouTube is the second website where people get most of their news. In [2020](https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-platforms-in-2020/pj_2021-01-12_news-social-media_0-02/), almost one in four people (23%) regularly get news on YouTube.
 
-
-https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-platforms-in-2020/pj_2021-01-12_news-social-media_0-02/
 
 <img 
     style="display: block; 
@@ -67,46 +57,29 @@ https://www.pewresearch.org/journalism/2021/01/12/news-use-across-social-media-p
     src="assets/img/sources_of_news.png" 
     alt="Sources of news on social media">
 
+
 ## So, What is the Importance of News & Politics Channels on Youtube?
 
-This study is based on the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019, as well as channel-level time-series data with weekly subscriber and view counts. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
-
+Let's investigate on the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019, as well as channel-level time-series data with weekly subscriber and view counts. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
 
 YouTube contains millions of videos, but you would maybe be surprise that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of view or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channel and count for only 1.74% of the total number of views.
 
 {% include /figures/news_pol_3pie_overview.html %}
-
-
-
 <iframe src="assets/img/news_pol_3pie_supperposed.html" height="600px" width="100%" style="border:none"></iframe>
-
-
-
-
 {% include /figures/news_pol_3pie_supperposed.html %}
+
+
 
 ## Where are we going?
 
 Even if the number of views is incomparable with the most attractive categories such as entertainment and music, the News and Politics categories is pushing its way up. Over the last fwe year it can be observed that this is the category with the fastest growth.
 
-
-
-
 {% include /figures/overall_categories_evolution.html %}
-
-
-
 
 Moreover, during the first fews months of 2019 it even manage to became the first category regarding the number of uploaded videos.
 
-
-
-
 {% include /figures/2019_category_evolution.html %}
-
-
-
 
 <iframe src="assets/img/news_pol_3pie_overview.html" height="600px" width="200%" style="border:none;" margin-left="-400px"></iframe>
 
@@ -115,12 +88,8 @@ Moreover, during the first fews months of 2019 it even manage to became the firs
 ## What is the problem then?
 You may think. "Well, Great!, One other great platform to get great sources of information!". I hate to disappoint you but the reality may be more complex...
 
-
  <div w3-include-html="assets/img/news_pol_3pie_overview.html"></div> 
-
-
 <div src="assets/img/news_pol_3pie_overview.html"></div>
-
 
 
 Answer the following questions:
@@ -128,6 +97,7 @@ Answer the following questions:
 *   Can we identify communities inside the main US News&Politics channels ? Is there a clear left-right polarization ?
 *   What is the distribution of users polarization? Is it Gaussian? How many very extreme users do we see?
 *   How are main political events treated by channels in different communities ?
+
 
 ## Are the users only commenting on channels of their political views?
 
