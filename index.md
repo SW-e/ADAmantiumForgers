@@ -232,15 +232,8 @@ Abroad, it was also a rich period :
 
 We will use the words occurences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;git 
-           width: 100%;"
-    src="assets/img/20_most_cited_topics.png"
-    alt="20 most cited topics in each community">
 
-<iframe src="assets/img/20_most_cited_topics.png" height="1200px" width="450%" style="border:none;" margin-left="-400px"></iframe>
+{% include /figures/60_most_cited_topics.html %}
 
 Trump is always cited very frequently. But further inspection of the words occurences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
@@ -279,7 +272,7 @@ We now have a clearer idea on the profile of all these six communities. Knowing 
 
 {% include /figures/words_occurences_national_politics.html %}
 
-On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2), as well as the topics on shootings that is more reported by community 1.
+On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2), as well as the topics on shooting and healthcare that are more reported by community 1. Similarly, the topics of security, wall and immigration are more reported by the right wing.
 
 ## Limitations of the dataset and this study
 
