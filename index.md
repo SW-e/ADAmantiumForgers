@@ -80,7 +80,7 @@ Moreover, during the first few months of 2019, it even manages to become the fir
 
 {% include /figures/2019_category_evolution.html %}
 
-
+Therefore, YouTube is definitively becoming one of the biggest vector of information
 
 ## What is the problem then?
 You may think. "Well, Great! One other great platform to get great sources of information!". I hate to disappoint you but the reality may be more complex...
@@ -169,7 +169,27 @@ Since community 6 has only 2 channels, we choose to ignore it in the future step
 
 
 ## Identification of communities
-## How to politically categorize communities
+
+## Who is where ?
+
+Let's have a look further in the communities found before:
+
+At first sight the communities seem to related to the political bias of the media. We see that CNN is in the community 0 with other mainstream media.
+
+The community 2 seem to be more international or should we say British due to the presence of The Guardian,Channel 4, Sky News or the BBC. 
+
+On the other side, community 5 is composed of the Daily Wire, an American conservative news website and media company founded in 2015. The Ben Shapiro channel is also present which is not a surprise since he is the founder of ... The Daily Wire
+
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/wordclouds_merged_transparent.png" 
+    alt="Community cloud of words">
+
+## How to politically categorize communities ?
 
 In order to give a political orientation to the communities, we decide to ask [allsides](www.allsides.com) for a little help. Allsides is a website that categorize media according to their political bias. They use different methods to class the a media in the five following categories : "Left, Lean Left, Center , Lean Right, Right".
 
@@ -180,15 +200,6 @@ Once this new argument added, the political orientation of the communities slowl
 
 Although the communities 2,3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
 
-
-
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="assets/img/wordclouds_merged_transparent.png" 
-    alt="Community cloud of words">
 
 
 ## Going further than partisan categorization
