@@ -108,7 +108,7 @@ If Bob commented on 1 videos of channels classified as "far-right", 2 "lean left
 
 {% include /figures/p-score.html %}
 
-In this figure are counted each person that is significantly involved in the US medias, with between 25 and 10'000 comments per year on the channels classified by AllSides. Unfortunately, distributions before 2015 were ignored due to a lack of data. This is due to the rapid growth of YouTube in the last years, as seen previously.
+In this figure are counted each person that is significantly involved in the US medias, with between 25 and 10'000 comments per year on the channels classified by [AllSides](www.allsides.com). Allsides is a website that categorize media according to their political bias. They use different methods to class the a media in the five following categories : "Left, Lean Left, Center , Lean Right, Right". Unfortunately, distributions before 2015 were ignored due to a lack of data. This is due to the rapid growth of YouTube in the last years, as seen previously.
 
 First of all, all years exhibit a bias towards the left, since the biggest and more mainstream channels are generally considered as lean left. However, there is a clear general trend with a shift of the median towards the left throughout the years.
 
@@ -174,9 +174,9 @@ Since community 6 has only 2 channels, we choose to ignore it in the future step
 
 Let's have a look further in the communities found before:
 
-At first sight the communities seem to related to the political bias of the media. We see that CNN is in the community 0 with other mainstream media.
+At first sight the communities seem to be related to the political bias of the media. We see that CNN is in the community 0 with other mainstream media.
 
-The community 2 seem to be more international or should we say British due to the presence of The Guardian,Channel 4, Sky News or the BBC. 
+The community 2 seems to be more international or should we say British due to the presence of The Guardian, Channel 4, Sky News or the BBC. 
 
 On the other side, community 5 is composed of the Daily Wire, an American conservative news website and media company founded in 2015. The Ben Shapiro channel is also present which is not a surprise since he is the founder of ... The Daily Wire
 
@@ -191,9 +191,9 @@ On the other side, community 5 is composed of the Daily Wire, an American conser
 
 ## How to politically categorize communities ?
 
-In order to give a political orientation to the communities, we decide to ask [allsides](www.allsides.com) for a little help. Allsides is a website that categorize media according to their political bias. They use different methods to class the a media in the five following categories : "Left, Lean Left, Center , Lean Right, Right".
+In order to give a political orientation to the communities, we decide to ask [AllSides](www.allsides.com) again for a little help.
 
-Once this new argument added, the political orientation of the communities slowly show up.
+Once this new argument added, the political orientation of the communities shows up.
 
 {% include /figures/heatmap_comunity_w_hover.html %}
 
@@ -256,7 +256,7 @@ Here are the results for the words ensemble on international news, and on religi
 
 This clearly shows the orientation for our two left incognito communities.
 
-Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also. This community is also probably containing a lot of content from other English speaking countries, such as UK or Australia.
+Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also. This matches previous observations, with communtiy 2 containing medias from other English speaking countries, such as the UK.
 
 Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not identified as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events. But these channels are still classified as being part of the News & Politics subjects by YouTube, and are probably at the interface between news and beliefs content.
 
