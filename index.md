@@ -182,7 +182,6 @@ We run the louvain algorithm again on our reduced but cleaner dataset and obtain
 
 Since community 6 has only 2 channels, we choose to ignore it in the future steps. 
 
-Results --> we get a csv with id of channel, and its respective communities 
 
 
 ## Identification of communities
