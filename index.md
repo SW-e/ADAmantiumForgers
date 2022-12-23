@@ -277,9 +277,9 @@ Community 3 clearly shows interest for religion and beliefs. It shows sharp peak
 
 We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ouselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specifically during the studied period (Dec. 2018 - Jan. 2019)
 
-{% include /figures/words_occurences_religion_and_beliefs.html %}
+{% include /figures/words_occurences_national_politics.html %}
 
-On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2)
+On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2), as well as the topics on shootings that is more reported by community 1.
 
 ## Limitations of the dataset and this study
 
