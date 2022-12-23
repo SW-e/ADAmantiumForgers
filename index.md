@@ -31,10 +31,6 @@ The recommendation algorithm of YouTube is probably one of the most powerful and
 
 With such a powerful striking power and influence, YouTube plays an increasing role in people's opinions, as it is used more and more to get news.
 
-[//]: # (India leads as the country with the highest number of YouTube users at 467 million)
-<!--- <img src="images/fb_us_pol.png" alt="fb_us_pol" width="700" style="display: block; margin-left: auto;margin-right: auto"/> -->
-<!--- *Complete disconnexion of political landscape. Pablo Ortellado and Marcio Moretto Ribeiro, CC BY* -->
-
 The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news was transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
 
 <img 
@@ -60,7 +56,7 @@ In the social media family, after Facebook, YouTube is the second website where 
 
 ## So, What is the Importance of News & Politics Channels on YouTube?
 
-Let's investigate the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019, as well as channel-level time-series data with weekly subscriber and view counts. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
+Let's investigate the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
 
 YouTube contains millions of videos, but you would maybe be surprised that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of views or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channels and count for only 1.74% of the total number of views.
@@ -274,6 +270,7 @@ On all these national political topics, we note very low interest from the consp
 Our travel through the News & Politics channels on YouTube led us to a better understanding of who is watching and what news contents are available on this videos plaform. We discovered that these communities do not exactly reflect the traditionnal Democrats/Republicans opposition, even though it can clearly be identified in specific communities. Conspiracist or isoteric content is from far not negligible, as communities 3 and 4 propose about 12% of the total number of videos on the studied period in the US. This growing dynamic of disinformation is a major threat to our society's stability and cohesion.
 
 A larger scale study would be of great interest, with more recent data, to study the further evolution of these communities. Our dataset was focusing on US only, containing only the biggest channels, up to 2019. News & Politics content appeared to be exploding in quantity after this year. Also, to be able to process the dataset under our time constraint, we had to use only videos with more than 30 comments, and we focused our language processing to a period of two months. However, our protocols are in place and the work could be generalized with more time to a larger set of more recent data, and to the whole world.
+
 
 [1]: https://www.nber.org/papers/w2666
 [2]: https://theconversation.com/mapping-brazils-political-polarization-online-96434
