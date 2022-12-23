@@ -29,13 +29,13 @@ The YouTube that once was a simple video hosting platform has since become one o
 
 The recommendation algorithm of YouTube is probably one of the most powerful and influential in existence today, promoting content that works and that might enclose people in their own filter bubble, thus increasing polarization. And no one knows exactly how it works... 
 
-With such a powerful striking power and influence, YouTube plays an increasing role on people's opinions, as it is used more and more to get news.
+With such a powerful striking power and influence, YouTube plays an increasing role in people's opinions, as it is used more and more to get news.
 
 [//]: # (India leads as the country with the highest number of YouTube users at 467 million)
 <!--- <img src="images/fb_us_pol.png" alt="fb_us_pol" width="700" style="display: block; margin-left: auto;margin-right: auto"/> -->
 <!--- *Complete disconnexion of political landscape. Pablo Ortellado and Marcio Moretto Ribeiro, CC BY* -->
 
-The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news,was transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
+The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news was transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
 
 <img 
     style="display: block; 
