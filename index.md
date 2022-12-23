@@ -65,7 +65,7 @@ Let's investigate on the topic thanks to the [YouNiverse](https://github.com/epf
 YouTube contains millions of videos, but you would maybe be surprise that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of view or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channel and count for only 1.74% of the total number of views.
 
-<div style="text-align: center">{% include /figures/news_pol_3pie_overview.html %}</div>
+{% include /figures/news_pol_3pie_overview.html %}
 <iframe src="assets/img/news_pol_3pie_supperposed.html" height="600px" width="100%" style="border:none"></iframe>
 {% include /figures/news_pol_3pie_supperposed.html %}
 
