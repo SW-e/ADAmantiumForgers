@@ -215,7 +215,7 @@ To perform this analysis, we decided to focus on a two months period, from Decem
 These two months were rich on the political scene, for U.S. national politics, as well as for U.S. international relations.
 
 - US President Donald Trump and Chinese President Xi Jinping agreed on a trade war truce
-- Dec 5 is National day of mourning for former US President George H. W. Bush, after his national funerals
+- Dec 5 was declared national day of mourning for former US President George H. W. Bush, after his national funerals
 - The risk of government shutdown is high, Trump said he would be "proud" to shut down the government
 - The topic of border wall is brought back to the forefront by Donald Trump
 - Nancy Pelosi is reelected Speaker of the House of Representatives
@@ -229,7 +229,7 @@ Abroad, it was also a rich period :
 
 We will use the words occurrences to see how these political events were covered in different communities. To get a first idea, here are the twenty most cited topics for each of the six communities that were previously identified.
 
-{% include /figures/60_most_cited_topics.html %}
+
 
 Trump is always cited very frequently. But further inspection of the words occurrences will allow us to analyse more in depth specific words that tell us a lot about a community : topics such as 'shutdown' or 'brexit' show interest of a community for specific aspects of the political news panorama during this period.
 
@@ -250,7 +250,6 @@ We would like to go further, and understand the last communities on which we sti
 <b><i>For which words ensemble do we see a specificity in occurrences for communities 2 and 3 ?</i></b>
 
 Here are the results for the words ensemble on international news, and on religion and beliefs, that did "trigger" communities 2 and 3 respectively, showing peaks of frequency of occurences.
-
 
 {% include /figures/words_occurences_international.html %}
 
