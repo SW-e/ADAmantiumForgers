@@ -210,7 +210,15 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 ## Going further than partisan categorization
 
-test test
+At this point in our exploration of News & Politics channels, we observe that the classical partisan confrontation between right and left, Republicans and Democrats, is not sufficient to caracterize the polarization of political communities on YouTube. This approach, if it has been able to label two communities as left wing and one as right wing, leaves three communities with no clear identity.
+YouTube as a news media gives more space for alternative thinking and allows a wider variety of speeches. In order to understand the identity of the remaining communities, we will now run an analysis of terms used in videos titles. Digging into the topics that these news channels discuss will lead us to better understand them.
+
+To perform this analysis, we decided to focus on a two months period, from December 2018 to January 2019.
+
+<i>What specific events happened during this period of time ?</i>
+
+These two months were rich on the political scene, for U.S. national politics, as well as for U.S. international relations.
+
 
 
 <img 
@@ -221,7 +229,7 @@ test test
     src="assets/img/20_most_cited_topics.png"
     alt="20 most cited topics in each community">
 
-<iframe src="assets/img/20_most_cited_topics.png" height="600px" width="200%" style="border:none;" margin-left="-400px"></iframe>
+<iframe src="assets/img/20_most_cited_topics.png" height="1200px" width="450%" style="border:none;" margin-left="-400px"></iframe>
 
 ca s'affiche comment ?
 
