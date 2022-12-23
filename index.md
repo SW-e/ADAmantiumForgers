@@ -65,9 +65,8 @@ Let's investigate on the topic thanks to the [YouNiverse](https://github.com/epf
 YouTube contains millions of videos, but you would maybe be surprise that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of view or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channel and count for only 1.74% of the total number of views.
 
-{% include /figures/news_pol_3pie_overview.html %}
-<iframe src="assets/img/news_pol_3pie_supperposed.html" height="600px" width="100%" style="border:none"></iframe>
-{% include /figures/news_pol_3pie_supperposed.html %}
+
+{% include /figures/news_pol_3pie_superposed.html %}
 
 
 
@@ -265,7 +264,7 @@ Here are the results for the words ensemble on international news, and on religi
 
 {% include /figures/words_occurences_international.html %}
 
-{% include /figures/words_occurences_religion_and_beliefs.html %}
+{% include /figures/words_occurences_surnatural_and_beliefs.html %}
 
 This clearly shows the orientation for our incognito communities.
 
