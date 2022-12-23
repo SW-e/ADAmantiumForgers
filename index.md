@@ -31,10 +31,6 @@ The recommendation algorithm of YouTube is probably one of the most powerful and
 
 With such a powerful striking power and influence, YouTube plays an increasing role in people's opinions, as it is used more and more to get news.
 
-[//]: # (India leads as the country with the highest number of YouTube users at 467 million)
-<!--- <img src="images/fb_us_pol.png" alt="fb_us_pol" width="700" style="display: block; margin-left: auto;margin-right: auto"/> -->
-<!--- *Complete disconnexion of political landscape. Pablo Ortellado and Marcio Moretto Ribeiro, CC BY* -->
-
 The way of consuming the news has not stopped evolving over time. With the invention of the printing press, the world of information has been considerably changed. Then the news was transmitted more and more quickly with the development of the radio, the information has then changed its face to become more widespread and entertaining with the arrival of television in households. Finally, since the creation of the Internet, much information is transmitted through this channel. Today, about 40% of Americans get news Online. It is even the number one source of information for the 18-45 age group. With the development of social networks, more and more people are getting information Online and this also raises more and more questions.
 
 <img 
@@ -60,7 +56,7 @@ In the social media family, after Facebook, YouTube is the second website where 
 
 ## So, What is the Importance of News & Politics Channels on YouTube?
 
-Let's investigate the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019, as well as channel-level time-series data with weekly subscriber and view counts. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
+Let's investigate the topic thanks to the [YouNiverse](https://github.com/epfl-dlab/YouNiverse) dataset that comprises metadata from over 136k YouTube channels and 72.9M videos (English-Speaking only!) published between May 2005 and October 2019. Furthermore, it contains about 8.6B comments made by ~449M users in 20.5M videos.
 
 YouTube contains millions of videos, but you would maybe be surprised that the YouTube category with the most uploaded videos is the News & Politics one.
 The category contains more than 18% of the videos contained in the dataset. However, when we are looking at the number of views or channels, the story changes drastically. The News & Politic channel represents less than 3% of the total number of channels and count for only 1.74% of the total number of views.
