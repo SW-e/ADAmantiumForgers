@@ -80,7 +80,7 @@ Moreover, during the first few months of 2019, it even manages to become the fir
 
 {% include /figures/2019_category_evolution.html %}
 
-Therefore, YouTube is definitively becoming one of the biggest vector of information
+Therefore, YouTube is definitively becoming one of the biggest vectors of information.
 
 ## What is the problem then?
 You may think. "Well, Great! One other great platform to get great sources of information!". I hate to disappoint you but the reality may be more complex...
@@ -100,19 +100,19 @@ Let's raise the following questions:
 
 Political polarization is, according to Wikipedia, the divergence of political attitudes away from the center, towards ideological extremes. In a polarized society, people tend to get further and further away from the middle and from each other, rejecting any kind of middle ground and enclosing themselves in their filter bubble, only watching the news that already matches their opinion. 
 
-How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's evaluate each user by the orientation of the channels on which he mostly commented on, and call it an "open-mindedness score", "political engagement score" or polarization score, alias **p-score**. This rating would be the average of the "score" obtained by one user that gets points for each comment on classified channels, according to the following scale:
+How could we quantify this on YouTube? Since we have a list of channels classified on a left-right axis, let's evaluate each user by the orientation of the channels on which he mostly commented on and call it an "open-mindedness score", "political engagement score" or polarization score, alias **p-score**. This rating would be the average of the "score" obtained by one user that gets points for each comment on classified channels, according to the following scale:
 
 ![p-score scale](assets/img/LR_axis.png)
 
-If Bob commented on 1 videos of channels classified as "far-right", 2 "lean left" channel and 1 "left" channel, his score will be 1-1-2*0.5 = -1 and his p-score will be -1/4 = -0.25. A ideal non-polarized society will show a high number of users with a score close to zero, and very low amount of users with a high score towards the extreme left (-1) or far right (+1). What is the shape of the distribution that is actually observed in the dataset?
+If Bob commented on 1 video of channels classified as "far-right", 2 "lean left" channels and 1 "left" channel, his score will be 1-1-2*0.5 = -1 and his p-score will be -1/4 = -0.25. A ideal non-polarized society will show a high number of users with a score close to zero, and very low amount of users with a high score towards the extreme left (-1) or far right (+1). What is the shape of the distribution that is actually observed in the dataset?
 
 {% include /figures/p-score.html %}
 
-In this figure are counted each person that is significantly involved in the US medias, with between 25 and 10'000 comments per year on the channels classified by AllSides. Unfortunately, distributions before 2015 were ignored due to a lack of data. This is due to the rapid growth of YouTube in the last years, as seen previously.
+In this figure are counted each person that is significantly involved in the US media, with between 25 and 10'000 comments per year on the channels classified by AllSides. Unfortunately, distributions before 2015 were ignored due to a lack of data. This is due to the rapid growth of YouTube in the last years, as seen previously.
 
 First of all, all years exhibit a bias towards the left, since the biggest and more mainstream channels are generally considered as lean left. However, there is a clear general trend with a shift of the median towards the left throughout the years.
 
-Second observation, the extremes grow, and they grow fast! More surprisingly, it appears that there is a very high proportion of very high scores. Keep in mind that these are people with at least **25 comments** each year who are commenting **exclusively** on far left or far right channels. Nowhere else.
+Second observation, the extremes grow, and they grow fast! More surprisingly, it appears that there is a very high proportion of very high scores. Keep in mind that these are people with at least **25 comments** each year who are commenting **exclusively** on far-left or far-right channels. Nowhere else.
 
 
 
@@ -125,13 +125,13 @@ Second observation, the extremes grow, and they grow fast! More surprisingly, it
 To find communities amongst YouTube channels, we created a graph using user comments. The graph was created as follows:
 If Alice comments on Video 1 of channel A and on video 2 of channel B, we create an edge of weight 1 between channel A and B. 
 
-For time purposes, we used only a subset of the comment for the graph generation (approx 17 hours of running time for graph generation)
+For time purposes, we used only a subset of the comment for the graph generation. (approx 17 hours of running time for graph generation)
 
 We then run the Louvain algorithm to find some communities
 
 ### Dataset cleaning
 
-Success ! We did get communities rapidly. But some communities do not seem to have their videos in english or have any interest in the politics of USA. By checking out the biggest channels of each community, we can quickly get an idea of which communities are of interest to us or not. We can discard the unnecessary ones.
+Success ! We did get communities rapidly. But some communities do not seem to have their videos in English or have any interest in the politics of the USA. By checking out the biggest channels of each community, we can quickly get an idea of which communities are of interest to us or not. We can discard the unnecessary ones.
 
 <img 
     style="display: block; 
@@ -142,7 +142,7 @@ Success ! We did get communities rapidly. But some communities do not seem to ha
     alt="Graph containing the unwanted channels in red and the channels we kept in blue">
 
 
-Out of the 2262 initial channels we have 1095 channels left.
+Out of the 2262 initial channels, we have 1095 channels left.
 
 ### Clean communities
 
@@ -154,7 +154,7 @@ We run the Louvain algorithm again on our reduced but cleaner dataset and obtain
            margin-right: auto;
            width: 100%;"
     src="assets/img/louvain_communities.png" 
-    alt="Graph containing the louvain communities">
+    alt="Graph containing the Louvain communities">
 
  - Community 0 has 341 members
  - Community 1 has 140 members
@@ -174,9 +174,9 @@ Since community 6 has only 2 channels, we choose to ignore it in the future step
 
 Let's have a look further in the communities found before:
 
-At first sight the communities seem to related to the political bias of the media. We see that CNN is in the community 0 with other mainstream media.
+At first sight, the communities seem to be related to the political bias of the media. We see that CNN is in community 0 with other mainstream media.
 
-The community 2 seem to be more international or should we say British due to the presence of The Guardian,Channel 4, Sky News or the BBC. 
+Community 2 seems to be more international or should we say British due to the presence of The Guardian,Channel 4, Sky News or the BBC. 
 
 On the other side, community 5 is composed of the Daily Wire, an American conservative news website and media company founded in 2015. The Ben Shapiro channel is also present which is not a surprise since he is the founder of ... The Daily Wire
 
@@ -191,14 +191,16 @@ On the other side, community 5 is composed of the Daily Wire, an American conser
 
 ## How to politically categorize communities ?
 
-In order to give a political orientation to the communities, we decide to ask [allsides](www.allsides.com) for a little help. Allsides is a website that categorize media according to their political bias. They use different methods to class the a media in the five following categories : "Left, Lean Left, Center , Lean Right, Right".
+In order to give a political orientation to the communities, we decide to ask [allsides](www.allsides.com) for a little help. Allsides is a website that categorizes media according to their political bias. They use different methods to classify the media into one of the five following categories : "Left, Lean Left, Center , Lean Right, Right".
 
 Once this new argument added, the political orientation of the communities slowly show up.
 
 {% include /figures/heatmap_comunity_w_hover.html %}
 
 
-Although the communities 2,3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
+Since community 2 is mainly composed of UK users, no political categorization could have been made with Allsides that only reports American media.
+
+Although communities 3 and 4 does not seem to be heavily politically polarized, it is a different story for the communities 0, 1 and 5. When communities 0 and 1 are part of the left wing of the political spectrum the 5 is the great representative of the right wing.
 
 
 
