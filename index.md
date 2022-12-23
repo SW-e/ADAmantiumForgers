@@ -89,7 +89,7 @@ You may think. "Well, Great! One other great platform to get great sources of in
 <div src="assets/img/news_pol_3pie_overview.html"></div>
 
 
-Answer the following questions:
+Let's raise the following questions:
 
 *   Can we identify communities inside the main US News&Politics channels ? Is there a clear left-right polarization ?
 *   What is the distribution of user's polarization? Is it Gaussian? How many very extreme users do we see?
@@ -245,30 +245,21 @@ Here are the results for the words ensemble on international news, and on religi
 
 This clearly shows the orientation for our two left incognito communities.
 
-Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also.
+Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also. This community is also probably containing a lot of content from other English speaking countries, such as UK or Australia.
 
 Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not identified as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events. But these channels are still classified as being part of the News & Politics subjects by YouTube, and are probably at the interface between news and beliefs content.
 
-## Conclusion
+# Conclusion
 
 We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ourselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specifically during the studied period (Dec. 2018 - Jan. 2019).
 
 {% include /figures/words_occurences_national_politics.html %}
 
-On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2), as well as the topics on shooting and healthcare that are more reported by community 1. Similarly, the topics of security, wall and immigration are more reported by the right wing. Finally, focusin on 'maga', communities 4 and 5 look to be more pro-Trump and have a tendency to use his campaign terms.
+On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2, left wing), just like the topics on shooting and healthcare that are more reported by community 1 (lean left). Similarly, the topics of security, wall and immigration are more reported by the right wing (community 5). Finally, focusin on 'maga', communities 4 and 5 look to be more pro-Trump and have a tendency to use his campaign terms.
 
+Our travel through the News & Politics channels on YouTube led us to a better understanding of who is watching and what news on this media plaform. Conspiracist or isoteric content is from far not negligible, as communities 3 and 4 propose about 12% of the total number of videos on the studied period.
 
-
-## Limitations of the dataset and this study
-
-* English-speaking only, US only and politics only (very very small window over of the entirety of YouTube)
-* Dataset is not clean
-* Only channels with >10k subscribers
-* Only comments on relatively big videos ()>30 comments)
-* Stops in 2019: rapid growth means that the trends were even more exacerbated in the last 3 years
-* Our protocols are in place and the work could be generalized to a larger set with more time.
-
-
+A larger scale study would be of great interest, with more recent data, to study the further evolution of these communities. Our dataset was focusing on US only, containing only the biggest channels, up to 2019. News & Politics content appeared to be exploding in quantity, it could be interesting to analyse development after 2019. Also, to be able to process the dataset, we had to use only videos with more than 30 comments. Our protocols are in place and the work could be generalized to a larger set with more time, data on the whole world and data after 2019.
 
 [1]: https://www.nber.org/papers/w2666
 [2]: https://theconversation.com/mapping-brazils-political-polarization-online-96434
