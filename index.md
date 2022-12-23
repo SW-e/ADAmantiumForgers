@@ -195,8 +195,29 @@ Although the communities 2,3 and 4 does not seem to be heavily politically polar
 
 ## Going further than partisan categorization
 
-test test
+At this point in our exploration of News & Politics channels, we observe that the classical partisan confrontation between right and left, Republicans and Democrats, is not sufficient to caracterize the polarization of political communities on YouTube. This approach, if it has been able to label two communities as left wing and one as right wing, leaves three communities with no clear identity.
+YouTube as a news media gives more space for alternative thinking and allows a wider variety of speeches. In order to understand the identity of the remaining communities, we will now run an analysis of terms used in videos titles. Digging into the topics that these news channels discuss will lead us to better understand them.
 
+To perform this analysis, we decided to focus on a two months period, from December 2018 to January 2019.
+
+<i>What specific events happened during this period of time ?</i>
+
+These two months were rich on the political scene, for U.S. national politics, as well as for U.S. international relations.
+
+- US President Donald Trump and Chinese President Xi Jinping agreed on a trade war truce
+- Dec 5 is National day of mourning for former US President George H. W. Bush, after his national funerals
+- The risk of government shutdown is high, Trump said he would be "proud" to shut down the government
+- The topic of border wall is brought back to the forefront by Donald Trump
+- Nancy Pelosi is reelected Speaker of the House of Representatives
+- Trump seems more and more implicated on campaign fraud and Russion dealings
+
+Abroad, it was also a rich period :
+- Negociations about Brexit were going on, and Theresa May's Brexit deal with the EU is rejected by UK parliament
+- France is facing with Yellow vests protests
+- Andres Manuel Lopez Obrador becomes President of Mexico
+- A UN ceasefire is agreed in Yemeni civil war
+
+We will use the words occurences to see how these political events were covered in different communities.
 
 <img 
     style="display: block; 
@@ -206,7 +227,7 @@ test test
     src="assets/img/20_most_cited_topics.png"
     alt="20 most cited topics in each community">
 
-<iframe src="assets/img/20_most_cited_topics.png" height="600px" width="200%" style="border:none;" margin-left="-400px"></iframe>
+<iframe src="assets/img/20_most_cited_topics.png" height="1200px" width="450%" style="border:none;" margin-left="-400px"></iframe>
 
 ca s'affiche comment ?
 
