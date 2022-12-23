@@ -123,27 +123,12 @@ Second observation, the extremes grow, and they grow fast! More surprisingly, it
 
 ## Finding the communities
 
-### trying out on subset dataset
-
-
-
-<img 
-    style="display: block; 
-           margin-left: auto;
-           margin-right: auto;
-           width: 100%;"
-    src="assets/img/initial_louvain.png" 
-    alt="...">
-
-
-### Running  on more data
-
 To find communities amongst youtube channels, we created a graph using user comments. The graph was created as follows:
 If Alice comments on Video 1 of channel A and on video 2 of channel B, we create an edge of weight 1 between channel A and B. 
 
 For time purposes, we used only a subset of the comment for the graph generation (approx 17 hours of runing time for graph generation)
 
-We then run the louvain algorithm to find some communities
+We then run the louvain algorithm to find some communities.
 
 ### Dataset cleaning
 
@@ -171,6 +156,8 @@ We run the louvain algorithm again on our reduced but cleaner dataset and obtain
            width: 100%;"
     src="assets/img/louvain_communities.png" 
     alt="Graph containing the louvain communities">
+
+The communities are stil denoted by their number. We will see about classifying them afterwards.
 
  - Community 0 has 341 members
  - Community 1 has 140 members
