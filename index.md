@@ -123,12 +123,27 @@ Second observation, the extremes grow, and they grow fast! More surprisingly, it
 
 ## Finding the communities
 
+### trying out on subset dataset
+
+
+
+<img 
+    style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;"
+    src="assets/img/initial_louvain.png" 
+    alt="...">
+
+
+### Running  on more data
+
 To find communities amongst youtube channels, we created a graph using user comments. The graph was created as follows:
 If Alice comments on Video 1 of channel A and on video 2 of channel B, we create an edge of weight 1 between channel A and B. 
 
 For time purposes, we used only a subset of the comment for the graph generation (approx 17 hours of runing time for graph generation)
 
-We then run the louvain algorithm to find some communities.
+We then run the louvain algorithm to find some communities
 
 ### Dataset cleaning
 
@@ -156,8 +171,6 @@ We run the louvain algorithm again on our reduced but cleaner dataset and obtain
            width: 100%;"
     src="assets/img/louvain_communities.png" 
     alt="Graph containing the louvain communities">
-
-The communities are stil denoted by their number. We will see about classifying them afterwards.
 
  - Community 0 has 341 members
  - Community 1 has 140 members
@@ -258,13 +271,15 @@ This clearly shows the orientation for our incognito communities.
 
 Community 2 reacts to international news lexical fields. Brexit is its most cited topic, and this community shows large interest for Europe, foreign countries leaders and other continents. Affairs regarding China appear to be discussed in this community more than in others, even if it is also discussed in communities 1, 3 and 5 in lower proportion. Interestingly, when isolating 'Yemen', comunity 2 is only the second community citing this country, as it is more present in community 1, and this topic appears to be interesting for left wing also.
 
-Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not idenfied as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events.
+Community 3 clearly shows interest for religion and beliefs. It shows sharp peaks for topics such as 'ufo', 'prophecy' or 'christ'. It was not idenfied as close to conspiracist discourse, and therefore these channels don't appear to be widespreading conspiracy theories. They appear to be more focusing on religion and surnatural events. But these channels are still classified as being part of the News & Politics subjects by YouTube, and are probably at the interface between news and beliefs content.
 
-We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ouselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specificaly during the studied period (Dec. 2018 - Jan. 2019)
+# Conclusion
 
+We now have a clearer idea on the profile of all these six communities. Knowing these profiles, it can be interesting to see how these communities cover the news. In particular, we could ask ouselves how the main topics on American politics are present. We made a short selection of these topics, taking into account what happened specifically during the studied period (Dec. 2018 - Jan. 2019)
 
+{% include /figures/words_occurences_religion_and_beliefs.html %}
 
-
+On all these national politics topics, we note very few interest from the conspiracist community (community 4), and to a lesser extend in communities 2 and 3 (international news and religion and beliefs communities). As expected, we see that the topic of government shutdown concerns more the left side than the right side (highest concern in community 2)
 
 ## Limitations of the dataset and this study
 
